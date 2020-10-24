@@ -9,6 +9,7 @@ s = turtle.Screen()
 t = turtle.Turtle()
 
 s.title("Among Us Red")
+t.speed(7)
 
 # it can move forward backward left right
 def body():
