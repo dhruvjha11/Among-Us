@@ -5,8 +5,10 @@ BODY_SHADOW = ''
 GLASS_COLOR = '#9acedc'
 GLASS_SHADOW = ''
 
-
+s = turtle.Screen()
 t = turtle.Turtle()
+
+s.title("Among Us Red")
 
 # it can move forward backward left right
 def body():

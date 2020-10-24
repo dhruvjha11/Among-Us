@@ -6,6 +6,8 @@ colors = ["red","yellow","green","purple","blue","orange"]
 #setting up workspace
 t = turtle.Turtle()
 s = turtle.Screen()
+
+s.title("Spiral Design")
 s.bgcolor("black")
 
 for x in range(201):

@@ -4,6 +4,7 @@ s = turtle.Screen()
 t = turtle.Turtle()
 l1 = ["purple","orange","red","blue","green"]
 
+s.title("Graphic Design 1")
 s.bgcolor("black")
 
 for i in range(200):
