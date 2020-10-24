@@ -1,12 +1,13 @@
 import turtle
 
-s = turtle.getscreen()
+s = turtle.Screen()
 t = turtle.Turtle()
 l1 = ["purple","orange","red","blue","green"]
 
 s.bgcolor("black")
+
 for i in range(200):
-    t.speed(20)
+    t.speed(30)
     t.color(l1[i%5])
     t.pensize(i/10+1)
     t.forward(i)
