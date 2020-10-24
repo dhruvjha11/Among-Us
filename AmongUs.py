@@ -5,7 +5,7 @@ BODY_SHADOW = ''
 GLASS_COLOR = '#9acedc'
 GLASS_SHADOW = ''
 
-s = turtle.getscreen()
+
 t = turtle.Turtle()
 
 # it can move forward backward left right
